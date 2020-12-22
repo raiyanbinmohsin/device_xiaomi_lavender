@@ -36,6 +36,9 @@ PRODUCT_SOONG_NAMESPACES += \
 DEVICE_PACKAGE_OVERLAYS += \
 	 $(DEVICE_PATH)/overlay
 
+# APEX
+ENABLE_APEX := true
+
 # Audio
 PRODUCT_COPY_FILES += \
 	$(DEVICE_PATH)/audio/audio_platform_info_intcodec.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info_intcodec.xml \
