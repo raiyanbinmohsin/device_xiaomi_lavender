@@ -1075,3 +1075,6 @@ vendor/etc/thermal-engine.conf
 vendor/etc/thermal-engine-camera.conf
 vendor/etc/thermal-engine-map.conf
 vendor/etc/thermal-engine-normal.conf
+
+# Wi-Fi - from jasmine-user 10 V11.0.22.0.QDIMIXM
+vendor/bin/cnss-daemon
