@@ -29,7 +29,7 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := lavender
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_NAME := asop_lavender
+PRODUCT_NAME := aosp_lavender
 PRODUCT_MODEL := Redmi Note 7
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
