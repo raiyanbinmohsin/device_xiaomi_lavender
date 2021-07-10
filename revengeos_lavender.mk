@@ -30,7 +30,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 $(call inherit-product, device/xiaomi/lavender/device.mk)
 
 # Inherit from our custom product configuration
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/revengeos/config/common.mk)
+TARGET_BOOT_ANIMATION_RES := 1080
+REVENGEOS_BUILDTYPE := OFFICIAL
+TARGET_FACE_UNLOCK_SUPPORTED := true
 
 # Build Description
 PRODUCT_BUILD_PROP_OVERRIDES += \
@@ -38,11 +41,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
         PRODUCT_NAME="lavender" \
         PRIVATE_BUILD_DESC="lavender-user 10 QKQ1.190910.002 V11.0.1.0.QFGMIXM release-keys"
 
-# Build Fingerprint
-BUILD_FINGERPRINT := "xiaomi/wayne/wayne:8.1.0/OPM1.171019.011/V9.5.11.0.ODCCNFA:user/release-keys"
-
 # Device identifier
-PRODUCT_NAME := lineage_lavender
+PRODUCT_NAME := revengeos_lavender
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_PLATFORM := SDM660
 PRODUCT_DEVICE := lavender
