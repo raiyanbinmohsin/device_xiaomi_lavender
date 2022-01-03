@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/revengeos_lavender.mk
+    $(LOCAL_DIR)/aosp_lavender.mk
 
 COMMON_LUNCH_CHOICES := \
-    revengeos_lavender-user \
-    revengeos_lavender-userdebug \
-    revengeos_lavender-eng
+    aosp_lavender-user \
+    aosp_lavender-userdebug \
+    aosp_lavender-eng
